@@ -1,0 +1,423 @@
+{
+  "archive": {
+    "path": "AtCoder.mongo.zip (original run archive; local path not preserved)",
+    "md5": "11e95fae502b9fffcd9771aa1d9cb01a",
+    "bson_member": "AtCoder.mongo/AtCoder/code_store.bson",
+    "records_seen": {
+      "Java": 20358,
+      "Python": 22317
+    },
+    "unmapped_records_excluded": {
+      "Java": 1714,
+      "Python": 0
+    }
+  },
+  "counts": {
+    "all_java_candidate_programs": 18454,
+    "fixed_cohort_java_candidate_programs": 18116,
+    "tfidf_features": 120264,
+    "all_java_candidate_task_groups": 360,
+    "fixed_cohort_candidate_task_groups": 294,
+    "tasks_with_queries_in_fixed_cohort": 290,
+    "queries_in_fixed_cohort": 1438,
+    "reference_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "reference_counts": [
+      1,
+      5,
+      10,
+      "all"
+    ]
+  },
+  "results": {
+    "1": {
+      "max": {
+        "query_weighted_mean_across_seeds": {
+          "Success@1": 0.2046,
+          "Success@5": 0.3534,
+          "Success@10": 0.4334,
+          "MRR": 0.2823
+        },
+        "query_weighted_sd_across_seeds": {
+          "Success@1": 0.0096,
+          "Success@5": 0.0132,
+          "Success@10": 0.0141,
+          "MRR": 0.0102
+        },
+        "task_weighted_mean_across_seeds": {
+          "Success@1": 0.2039,
+          "Success@5": 0.3539,
+          "Success@10": 0.434,
+          "MRR": 0.2821
+        },
+        "task_weighted_sd_across_seeds": {
+          "Success@1": 0.01,
+          "Success@5": 0.013,
+          "Success@10": 0.014,
+          "MRR": 0.0105
+        }
+      },
+      "mean": {
+        "query_weighted_mean_across_seeds": {
+          "Success@1": 0.2046,
+          "Success@5": 0.3534,
+          "Success@10": 0.4334,
+          "MRR": 0.2823
+        },
+        "query_weighted_sd_across_seeds": {
+          "Success@1": 0.0096,
+          "Success@5": 0.0132,
+          "Success@10": 0.0141,
+          "MRR": 0.0102
+        },
+        "task_weighted_mean_across_seeds": {
+          "Success@1": 0.2039,
+          "Success@5": 0.3539,
+          "Success@10": 0.434,
+          "MRR": 0.2821
+        },
+        "task_weighted_sd_across_seeds": {
+          "Success@1": 0.01,
+          "Success@5": 0.013,
+          "Success@10": 0.014,
+          "MRR": 0.0105
+        }
+      },
+      "task_weighted_mean_minus_max_bootstrap": {
+        "Success@1": {
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_replicates": 5000,
+          "bootstrap_seed": 20261028,
+          "cluster_unit": "task"
+        },
+        "Success@5": {
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_replicates": 5000,
+          "bootstrap_seed": 20261028,
+          "cluster_unit": "task"
+        },
+        "Success@10": {
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_replicates": 5000,
+          "bootstrap_seed": 20261028,
+          "cluster_unit": "task"
+        },
+        "MRR": {
+          "difference": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "bootstrap_replicates": 5000,
+          "bootstrap_seed": 20261028,
+          "cluster_unit": "task"
+        }
+      }
+    },
+    "5": {
+      "max": {
+        "query_weighted_mean_across_seeds": {
+          "Success@1": 0.3417,
+          "Success@5": 0.5469,
+          "Success@10": 0.6403,
+          "MRR": 0.4435
+        },
+        "query_weighted_sd_across_seeds": {
+          "Success@1": 0.0048,
+          "Success@5": 0.0098,
+          "Success@10": 0.0138,
+          "MRR": 0.0055
+        },
+        "task_weighted_mean_across_seeds": {
+          "Success@1": 0.3409,
+          "Success@5": 0.5469,
+          "Success@10": 0.6397,
+          "MRR": 0.4429
+        },
+        "task_weighted_sd_across_seeds": {
+          "Success@1": 0.0044,
+          "Success@5": 0.0098,
+          "Success@10": 0.0136,
+          "MRR": 0.0059
+        }
+      },
+      "mean": {
+        "query_weighted_mean_across_seeds": {
+          "Success@1": 0.3954,
+          "Success@5": 0.6074,
+          "Success@10": 0.6928,
+          "MRR": 0.4955
+        },
+        "query_weighted_sd_across_seeds": {
+          "Success@1": 0.0062,
+          "Success@5": 0.01,
+          "Success@10": 0.0074,
+          "MRR": 0.0051
+        },
+        "task_weighted_mean_across_seeds": {
+          "Success@1": 0.3951,
+          "Success@5": 0.6078,
+          "Success@10": 0.6929,
+          "MRR": 0.4955
+        },
+        "task_weighted_sd_across_seeds": {
+          "Success@1": 0.0065,
+          "Success@5": 0.01,
+          "Success@10": 0.0074,
+          "MRR": 0.0055
+        }
+      },
+      "task_weighted_mean_minus_max_bootstrap": {
+        "Success@1": {
+          "difference": 0.0543,
+          "ci95": [
+            0.0376,
+            0.0718
+          ],
+          "bootstrap_replicates": 5000,
+          "bootstrap_seed": 20261028,
+          "cluster_unit": "task"
+        },
+        "Success@5": {
+          "difference": 0.0609,
+          "ci95": [
+            0.0448,
+            0.0775
+          ],
+          "bootstrap_replicates": 5000,
+          "bootstrap_seed": 20261028,
+          "cluster_unit": "task"
+        },
+        "Success@10": {
+          "difference": 0.0532,
+          "ci95": [
+            0.0381,
+            0.0688
+          ],
+          "bootstrap_replicates": 5000,
+          "bootstrap_seed": 20261028,
+          "cluster_unit": "task"
+        },
+        "MRR": {
+          "difference": 0.0527,
+          "ci95": [
+            0.0388,
+            0.0672
+          ],
+          "bootstrap_replicates": 5000,
+          "bootstrap_seed": 20261028,
+          "cluster_unit": "task"
+        }
+      }
+    },
+    "10": {
+      "max": {
+        "query_weighted_mean_across_seeds": {
+          "Success@1": 0.3932,
+          "Success@5": 0.6225,
+          "Success@10": 0.7143,
+          "MRR": 0.5017
+        },
+        "query_weighted_sd_across_seeds": {
+          "Success@1": 0.0097,
+          "Success@5": 0.0044,
+          "Success@10": 0.0039,
+          "MRR": 0.0064
+        },
+        "task_weighted_mean_across_seeds": {
+          "Success@1": 0.392,
+          "Success@5": 0.6219,
+          "Success@10": 0.7139,
+          "MRR": 0.5009
+        },
+        "task_weighted_sd_across_seeds": {
+          "Success@1": 0.0104,
+          "Success@5": 0.0044,
+          "Success@10": 0.0039,
+          "MRR": 0.0066
+        }
+      },
+      "mean": {
+        "query_weighted_mean_across_seeds": {
+          "Success@1": 0.4572,
+          "Success@5": 0.6866,
+          "Success@10": 0.7597,
+          "MRR": 0.5638
+        },
+        "query_weighted_sd_across_seeds": {
+          "Success@1": 0.0053,
+          "Success@5": 0.0086,
+          "Success@10": 0.0081,
+          "MRR": 0.0064
+        },
+        "task_weighted_mean_across_seeds": {
+          "Success@1": 0.4581,
+          "Success@5": 0.6868,
+          "Success@10": 0.7599,
+          "MRR": 0.5645
+        },
+        "task_weighted_sd_across_seeds": {
+          "Success@1": 0.0052,
+          "Success@5": 0.0085,
+          "Success@10": 0.0084,
+          "MRR": 0.0063
+        }
+      },
+      "task_weighted_mean_minus_max_bootstrap": {
+        "Success@1": {
+          "difference": 0.0661,
+          "ci95": [
+            0.043,
+            0.09
+          ],
+          "bootstrap_replicates": 5000,
+          "bootstrap_seed": 20261028,
+          "cluster_unit": "task"
+        },
+        "Success@5": {
+          "difference": 0.065,
+          "ci95": [
+            0.0452,
+            0.0854
+          ],
+          "bootstrap_replicates": 5000,
+          "bootstrap_seed": 20261028,
+          "cluster_unit": "task"
+        },
+        "Success@10": {
+          "difference": 0.0459,
+          "ci95": [
+            0.0274,
+            0.0643
+          ],
+          "bootstrap_replicates": 5000,
+          "bootstrap_seed": 20261028,
+          "cluster_unit": "task"
+        },
+        "MRR": {
+          "difference": 0.0636,
+          "ci95": [
+            0.0449,
+            0.0826
+          ],
+          "bootstrap_replicates": 5000,
+          "bootstrap_seed": 20261028,
+          "cluster_unit": "task"
+        }
+      }
+    },
+    "all": {
+      "max": {
+        "query_weighted_mean_across_seeds": {
+          "Success@1": 0.4527,
+          "Success@5": 0.6759,
+          "Success@10": 0.7441,
+          "MRR": 0.5559
+        },
+        "query_weighted_sd_across_seeds": {
+          "Success@1": 0.0,
+          "Success@5": 0.0,
+          "Success@10": 0.0,
+          "MRR": 0.0
+        },
+        "task_weighted_mean_across_seeds": {
+          "Success@1": 0.449,
+          "Success@5": 0.6743,
+          "Success@10": 0.7421,
+          "MRR": 0.5527
+        },
+        "task_weighted_sd_across_seeds": {
+          "Success@1": 0.0,
+          "Success@5": 0.0,
+          "Success@10": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "mean": {
+        "query_weighted_mean_across_seeds": {
+          "Success@1": 0.507,
+          "Success@5": 0.7392,
+          "Success@10": 0.8032,
+          "MRR": 0.6128
+        },
+        "query_weighted_sd_across_seeds": {
+          "Success@1": 0.0,
+          "Success@5": 0.0,
+          "Success@10": 0.0,
+          "MRR": 0.0
+        },
+        "task_weighted_mean_across_seeds": {
+          "Success@1": 0.5074,
+          "Success@5": 0.739,
+          "Success@10": 0.8024,
+          "MRR": 0.6131
+        },
+        "task_weighted_sd_across_seeds": {
+          "Success@1": 0.0,
+          "Success@5": 0.0,
+          "Success@10": 0.0,
+          "MRR": 0.0
+        }
+      },
+      "task_weighted_mean_minus_max_bootstrap": {
+        "Success@1": {
+          "difference": 0.0584,
+          "ci95": [
+            0.0193,
+            0.099
+          ],
+          "bootstrap_replicates": 5000,
+          "bootstrap_seed": 20261028,
+          "cluster_unit": "task"
+        },
+        "Success@5": {
+          "difference": 0.0647,
+          "ci95": [
+            0.0322,
+            0.0967
+          ],
+          "bootstrap_replicates": 5000,
+          "bootstrap_seed": 20261028,
+          "cluster_unit": "task"
+        },
+        "Success@10": {
+          "difference": 0.0603,
+          "ci95": [
+            0.0321,
+            0.0897
+          ],
+          "bootstrap_replicates": 5000,
+          "bootstrap_seed": 20261028,
+          "cluster_unit": "task"
+        },
+        "MRR": {
+          "difference": 0.0604,
+          "ci95": [
+            0.0292,
+            0.0919
+          ],
+          "bootstrap_replicates": 5000,
+          "bootstrap_seed": 20261028,
+          "cluster_unit": "task"
+        }
+      }
+    }
+  }
+}

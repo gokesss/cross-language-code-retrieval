@@ -1,0 +1,21 @@
+name: code-retrieval-repro
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.10
+  - pip=24.3.1
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - scipy=1.14.1
+  - scikit-learn=1.5.2
+  - requests=2.32.3
+  - tqdm=4.67.0
+  - pymongo=4.10.1
+  - datasets=3.1.0
+  - huggingface_hub=0.26.2
+  - pyarrow=21.0.0
+  - matplotlib=3.9.2
+  - pip:
+      - nbformat==5.10.4
+      - ipykernel==6.29.5
+      - gdown==5.2.0

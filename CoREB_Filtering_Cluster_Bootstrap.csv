@@ -1,0 +1,26 @@
+comparison,seed,metric,difference_query_weighted,ci95_low_cluster_bootstrap,ci95_high_cluster_bootstrap,bootstrap_replicates,clusters,interval_method,cluster_key
+Unrestricted: one passed reference minus one random reference,20261030,Hit@1,0.0763,0.0479,0.1083,5000,61,percentile bootstrap,meta_source_problem_id
+Unrestricted: one passed reference minus one random reference,20261030,Hit@5,0.0479,0.0304,0.0674,5000,61,percentile bootstrap,meta_source_problem_id
+Unrestricted: one passed reference minus one random reference,20261030,Recall@10,0.0757,0.0481,0.1068,5000,61,percentile bootstrap,meta_source_problem_id
+Unrestricted: one passed reference minus one random reference,20261030,MRR,0.0639,0.0409,0.0899,5000,61,percentile bootstrap,meta_source_problem_id
+Unrestricted: one passed reference minus one random reference,20261030,nDCG@10,0.0837,0.0566,0.1147,5000,61,percentile bootstrap,meta_source_problem_id
+"Unrestricted: all-passed versus all references, Max",20261031,Hit@1,0.0211,0.0,0.0514,5000,61,percentile bootstrap,meta_source_problem_id
+"Unrestricted: all-passed versus all references, Max",20261031,Hit@5,0.0105,0.0,0.0267,5000,61,percentile bootstrap,meta_source_problem_id
+"Unrestricted: all-passed versus all references, Max",20261031,Recall@10,0.0149,0.0053,0.0257,5000,61,percentile bootstrap,meta_source_problem_id
+"Unrestricted: all-passed versus all references, Max",20261031,MRR,0.0148,0.003,0.0312,5000,61,percentile bootstrap,meta_source_problem_id
+"Unrestricted: all-passed versus all references, Max",20261031,nDCG@10,0.0213,0.012,0.0327,5000,61,percentile bootstrap,meta_source_problem_id
+"Unrestricted: all-passed versus all references, Mean",20261032,Hit@1,0.0158,-0.0057,0.0462,5000,61,percentile bootstrap,meta_source_problem_id
+"Unrestricted: all-passed versus all references, Mean",20261032,Hit@5,0.0105,0.0,0.0267,5000,61,percentile bootstrap,meta_source_problem_id
+"Unrestricted: all-passed versus all references, Mean",20261032,Recall@10,0.0189,0.0087,0.0299,5000,61,percentile bootstrap,meta_source_problem_id
+"Unrestricted: all-passed versus all references, Mean",20261032,MRR,0.0096,-0.007,0.0298,5000,61,percentile bootstrap,meta_source_problem_id
+"Unrestricted: all-passed versus all references, Mean",20261032,nDCG@10,0.0153,0.0026,0.0294,5000,61,percentile bootstrap,meta_source_problem_id
+"Matched candidate set: passed versus all references, Max",20261033,Hit@1,0.0,0.0,0.0,5000,61,percentile bootstrap,meta_source_problem_id
+"Matched candidate set: passed versus all references, Max",20261033,Hit@5,0.0,0.0,0.0,5000,61,percentile bootstrap,meta_source_problem_id
+"Matched candidate set: passed versus all references, Max",20261033,Recall@10,0.0009,-0.0013,0.004,5000,61,percentile bootstrap,meta_source_problem_id
+"Matched candidate set: passed versus all references, Max",20261033,MRR,0.0004,0.0,0.0014,5000,61,percentile bootstrap,meta_source_problem_id
+"Matched candidate set: passed versus all references, Max",20261033,nDCG@10,0.0011,-0.0004,0.0029,5000,61,percentile bootstrap,meta_source_problem_id
+"Matched candidate set: passed versus all references, Mean",20261034,Hit@1,0.0105,-0.0108,0.0385,5000,61,percentile bootstrap,meta_source_problem_id
+"Matched candidate set: passed versus all references, Mean",20261034,Hit@5,0.0,0.0,0.0,5000,61,percentile bootstrap,meta_source_problem_id
+"Matched candidate set: passed versus all references, Mean",20261034,Recall@10,0.0004,-0.0079,0.0078,5000,61,percentile bootstrap,meta_source_problem_id
+"Matched candidate set: passed versus all references, Mean",20261034,MRR,0.0051,-0.0093,0.0232,5000,61,percentile bootstrap,meta_source_problem_id
+"Matched candidate set: passed versus all references, Mean",20261034,nDCG@10,0.0005,-0.0109,0.0135,5000,61,percentile bootstrap,meta_source_problem_id

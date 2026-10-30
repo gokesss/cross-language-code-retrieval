@@ -1,0 +1,11 @@
+comparison,method,metric,difference_query_weighted,ci95_low_cluster_bootstrap,ci95_high_cluster_bootstrap,bootstrap_replicates,seed,clusters,interval_method,cluster_key
+k=2 minus k=1,Max,Hit@1,0.0821,0.0511,0.1169,5000,20261031,61,percentile bootstrap,meta_source_problem_id
+k=2 minus k=1,Max,Hit@5,0.0689,0.0409,0.1021,5000,20261031,61,percentile bootstrap,meta_source_problem_id
+k=2 minus k=1,Max,Recall@10,0.1093,0.0748,0.1464,5000,20261031,61,percentile bootstrap,meta_source_problem_id
+k=2 minus k=1,Max,MRR,0.0742,0.0487,0.1036,5000,20261031,61,percentile bootstrap,meta_source_problem_id
+k=2 minus k=1,Max,nDCG@10,0.1149,0.082,0.1505,5000,20261031,61,percentile bootstrap,meta_source_problem_id
+k=2 minus k=1,Mean,Hit@1,0.0979,0.0662,0.133,5000,20261031,61,percentile bootstrap,meta_source_problem_id
+k=2 minus k=1,Mean,Hit@5,0.0584,0.0294,0.0919,5000,20261031,61,percentile bootstrap,meta_source_problem_id
+k=2 minus k=1,Mean,Recall@10,0.0922,0.0597,0.1287,5000,20261031,61,percentile bootstrap,meta_source_problem_id
+k=2 minus k=1,Mean,MRR,0.0826,0.0563,0.1129,5000,20261031,61,percentile bootstrap,meta_source_problem_id
+k=2 minus k=1,Mean,nDCG@10,0.1114,0.0815,0.1448,5000,20261031,61,percentile bootstrap,meta_source_problem_id
